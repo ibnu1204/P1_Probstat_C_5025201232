@@ -115,3 +115,41 @@ varian
 
 ## Soal 5
 ### a
+Menggunakan fungsi `dexp(n, rate)` dengan n = 1 dan rate = λ = 3
+```
+lambda = 3
+set.seed(1)
+rnorm(1)
+probability = dexp(1, rate = lambda)
+probability
+```
+![5a](https://user-images.githubusercontent.com/81419886/162630752-c9f298b9-ea2a-42eb-ac5f-f63efc238981.png)
+
+### b
+Menggunakan funsgi `rexp(n, rate)` dengan n beragam kemudian dibuat histogram
+```
+set.seed(1)
+hist(rexp(10, rate = lambda), main = "Histogram Eksponensial 10 Bilangan Random")
+hist(rexp(100, rate = lambda), main = "Histogram Eksponensial 100 Bilangan Random")
+hist(rexp(1000, rate = lambda), main = "Histogram Eksponensial 1000 Bilangan Random")
+hist(rexp(10000, rate = lambda), main = "Histogram Eksponensial 10000 Bilangan Random")
+```
+![5b1](https://user-images.githubusercontent.com/81419886/162630841-90056eab-7631-41b3-a42a-24c098483d9d.png)
+![5b2](https://user-images.githubusercontent.com/81419886/162630866-e12270e0-0c47-4c19-a3c4-0aef858d3b50.png)
+![5b3](https://user-images.githubusercontent.com/81419886/162630885-c375b0c3-b550-4bee-b2ec-53b3947a7f53.png)
+![5b4](https://user-images.githubusercontent.com/81419886/162630912-e1b6ebce-eb4c-4329-a601-ce3b79f045ac.png)
+
+### c
+Menggunakan fungsi `(rexp(n, rate)` kemudian mencari mean dan varian 
+```
+n = 100
+set.seed(1)
+mean = mean(rexp(n, rate = lambda))
+varian = (sd(rexp(n, rate = lambda))) ^ 2
+mean
+varian
+```
+![5c](https://user-images.githubusercontent.com/81419886/162631014-98484102-9cc0-4e05-9038-55f32e5d028c.png)
+
+## Soal 6
+### a

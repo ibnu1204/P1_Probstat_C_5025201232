@@ -1,5 +1,6 @@
 # P1_Probstat_C_5025201232
 |NRP|Nama|
+|--------------|--------------|
 |5025201232|Ahmad Ibnu Malik Rahman|
 
 ## Soal 1

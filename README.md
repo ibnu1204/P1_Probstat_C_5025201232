@@ -25,6 +25,6 @@ Menggunakan fungsi `rgeom(n, prob)` dengan n = 10000 dan prob = 0.20. Kemudian d
 hist(rgeom(n = 10000, prob = p), main = 'Histogram Geometrik')
 ```
 Berikut hasil histogramnya
-![1d](<img width="431" alt="image" src="https://user-images.githubusercontent.com/81419886/162626261-b6b8bf4b-b0cc-4966-8082-58cd3cb93fbd.png">)
+![1d](https://user-images.githubusercontent.com/81419886/162626261-b6b8bf4b-b0cc-4966-8082-58cd3cb93fbd.png)
 
 ### e

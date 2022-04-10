@@ -52,3 +52,66 @@ Menggunakan fungsi `rbinom(x, n, p)` kemudian membuat histogramnya
 Menghitung rataan (μ) dengan rumus `n*p` dan menghitung varian (σ²) dengan rumus `n*p*(1-p)`. Berikut hasil perhitungannya
 
 ![2c](https://user-images.githubusercontent.com/81419886/162627712-ba728528-570a-4132-8163-b59698f2fd68.png)
+
+## Soal 3
+### a
+Menggunakan fungsi `dpois(x, lambda)` untuk mendapatkan hasil distribusi poisson
+```
+lambda = 4.5
+x = 6
+dpois(x, lambda)
+```
+![3a](https://user-images.githubusercontent.com/81419886/162629584-093deade-d47d-4a0b-bfce-fee77a1e8f85.png)
+
+### b
+Menggunakan fungsi `rpois(n, lambda)` kemudian membuat histogram dari fungsi tersebut
+```
+x = 6
+n = 356
+hist(rpois(n, lambda), main = "Histogram Poisson")
+```
+![3b](https://user-images.githubusercontent.com/81419886/162629663-fc777396-592c-4d6e-83ad-f647fd7dbc5e.png)
+
+### c
+Dari perhitungan yang diperoleh, didapatkan hasil a dan b mendekati sama
+
+### d
+Menggunakan persamaan distribusi poisson `mean = varian = lambda`
+```
+mean = varian = lambda
+mean
+varian
+```
+![3d](https://user-images.githubusercontent.com/81419886/162629796-11a8cf60-2d81-4d0c-bb53-5a7b9be05556.png)
+
+## Soal 4
+### a
+Menggunakan fungsi `dchisq(x, v)` untuk mendapatkan hasil distribusi Chi-Squared
+```
+x = 2
+v = 10
+dchisq(x, v)
+```
+![4a](https://user-images.githubusercontent.com/81419886/162629882-883ec199-50ac-4778-81c4-993b434310db.png)
+
+### b
+Menggunakan fungsi `rchisq(n, v)` untuk mendapatkan hasil distribusi Chi-Squared, kemudian dibuat histogramnya
+```
+n = 100
+v = 10
+hist(rchisq(n, v), xlab = "X", ylab = "V", main = "Grafik Histogram")
+```
+![4b](https://user-images.githubusercontent.com/81419886/162629950-9b88ce5e-8444-40d7-a804-18f6a6955ef3.png)
+
+### c
+Menggunakan persamaan `mean = v` dan `varian = 2*v`
+```
+mean = v
+varian = 2*v
+mean
+varian
+```
+![4c](https://user-images.githubusercontent.com/81419886/162630023-a946fa01-19c6-4bf6-9a2f-491923708cb3.png)
+
+## Soal 5
+### a

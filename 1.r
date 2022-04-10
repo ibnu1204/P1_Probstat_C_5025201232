@@ -7,7 +7,7 @@ dgeom(x, p)
 mean(rgeom(n = 10000, prob = p) == 3)
 
 #c
-#Hasil perhitungannya tidak terlalu jauh dari 10000 bilangan
+#Hasil perhitungannya tidak berbeda terlalu jauh
 
 #d
 hist(rgeom(n = 10000, prob = p), main = 'Histogram Geometrik')

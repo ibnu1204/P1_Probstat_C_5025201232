@@ -28,3 +28,6 @@ Berikut hasil histogramnya
 ![1d](https://user-images.githubusercontent.com/81419886/162626261-b6b8bf4b-b0cc-4966-8082-58cd3cb93fbd.png)
 
 ### e
+Menghitung rataan (μ) dengan rumus `1/p` dan menghitung varian (σ²) dengan rumus `(1-p)/p^2`
+Berikut hasil perhitungannya
+![1e](https://user-images.githubusercontent.com/81419886/162626785-9bac04d3-c915-4620-8653-cb3ebfa46060.png)

@@ -153,3 +153,44 @@ varian
 
 ## Soal 6
 ### a
+Menggunakan fungsi `rnorm(n, mean, sd)` untuk mendapatkan Z-score dan fungsi `runif(n, min, max)` untuk mendapatkan batas atas dan bawah
+```
+n = 100
+mean = 50
+sd = 8
+set.seed(1)
+data <- rnorm(n, mean, sd)
+data
+summary(data)
+
+x1 = runif(1, min = min(data), max = mean)
+x2 = runif(1, min = mean, max = max(data))
+x1
+x2
+
+probability1 <- pnorm(x1, mean, sd)
+probability2 <- pnorm(x2, mean, sd)
+probability1
+probability2
+
+probability <- probability2 - probability1
+plot(data)
+```
+![6a1](https://user-images.githubusercontent.com/81419886/162631214-f32b63fc-77ac-484e-abf9-ac3102b627f9.png)
+![6a2](https://user-images.githubusercontent.com/81419886/162631240-5ad32e18-4838-4780-af1b-1cf2aa02a9eb.png)
+
+### b
+Menggunakan fungsi `hist(data, breaks)`
+```
+breaks = 50
+hist(data, breaks, main = "5025201232_Ahmad Ibnu Malik Rahman_Probstat_C_DNhistogram")
+```
+![6b](https://user-images.githubusercontent.com/81419886/162631324-c5994b09-302b-4f7d-a961-2a3dde2b6b9e.png)
+
+### c
+Menggunakan fungsi `(sd(data))^2`
+```
+varian = (sd(data))^2
+varian
+```
+![6c](https://user-images.githubusercontent.com/81419886/162631392-c981363b-5667-4b41-88ca-c74ef355d92f.png)
